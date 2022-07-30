@@ -1,0 +1,29 @@
+
+body{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+form{
+    margin: 30px;
+    border: 1px solid gray;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+ form .submit{
+    background: rgb(19, 19, 109);
+    color: white;
+    font: bolder 1.3em Arial;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+span.foco{
+    color: red;
+}
